@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dov Ezra Forsyth Web Designer</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="./javascript.js"></script> <!--Uh, I should really add some script-->
+</head>
+<body>
+    <header>
+        <h2>Dov Ezra Forsyth</h2>
+        <h4>Amateur Web Designer</h4>
+    </header>
+    <img id="dov" src="/assets/IMG_0860.jpg" alt="Dov Ezra portrait">
+    <div class="space"></div>
+    <article id="bio">
+        <p>I'm Dov Ezra, you can call me Ezra.<br>I'm a self taught amateur web developer and programmer. 
+        In my previous career I spent twenty years working in kitchens as a chef. I'm a tabletop gamer, social activist
+        and community organizer. </p>
+    </article>
+    <div class="space"></div><!--Its like a psuedo React component, a block to take up space for aesthetics-->
+    <h4>Contact Me</h4>
+    <div class="contact">
+        <a data-contact="Email" style="--accent-color: #004788;" href="mailt&#111;&#58;%20%64o%&#55;6&#101;&#37;7Ar%&#54;1%&#54;6o&#114;&#115;&#121;&#116;h&#64;&#112;r%&#54;Fgr&#37;61%6D&#109;e%72&#46;&#37;6Ee%74'> do&#118;&#101;&#122;ra&#102;o&#114;&#115;yth&#64;p&#114;&#111;gr&#97;&#109;&#109;e&#114;&#46;net"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>mail.com</title><path d="M18.017-.0085H0V15.66c0 1.4057.96 2.5714 2.2457 2.9143L24 24.0085V5.9915c.0172-3.3086-2.6743-6-5.9828-6zm3 15.6685H18V8.7857c0-.6685-.223-2.2285-2.2115-2.2285-1.32 0-2.28.9085-2.28 2.2285V15.66h-3.0171V8.7857c0-.6685-.2057-2.2285-2.1943-2.2285-1.3543 0-2.28.9085-2.28 2.2285V15.66H3V3.6086h5.297c1.5943 0 2.8971.6343 3.7371 1.6629.8915-1.0286 2.2115-1.6629 3.7372-1.6629 3.2914 0 5.2285 2.1771 5.2285 5.2457l.0172 6.8057z"/></svg></a>
+        <a data-contact="Github" style="--accent-color: #181717;" href="https://github.com/Nenyond"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+        <a data-contact="X" style="--accent-color: #000000;" href="https://x.com/Paintedogre"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+        <a data-contact="Bluesky" style="--accent-color: #0285FF;" href="https://bsky.app/profile/ezraogre.bsky.social"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Bluesky</title><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/></svg></a>
+    </div>
+    <div class="space"></div><!--another spacer for aesthetics-->
+    <div class="carousel"> <!--The IDs are future proofing-->
+        <div style="--accent-color: #E34F26" id="html">HTML</div>
+        <div style="--accent-color: #1572B6" id="CSS">CSS</div>
+        <div style="--accent-color: #F7DF1E" id="js">Javascript</div>
+        <div style="--accent-color: #61DAFB" id="react">React</div>
+        <div style="--accent-color: #3776AB" id="python">Python</div>
+        <div style="--accent-color: #3178C6" id="ts">Typescript</div>
+        <div style="--accent-color: #CC6699" id="sass">SASS</div>
+        <div style="--accent-color: #a4ff4f" id="anime">Anime.js</div>
+        <div style="--accent-color: #003B57" id="sqlite">SQLite</div>
+        <div style="--accent-color: #4479A1" id="mysql">MySQL</div>
+        <div style="--accent-color: #777BB4" id="php">PHP</div>
+    </div>
+    <div class="space"></div><!--Hi, its me, a spacer again.-->
+    <h2>Projects</h2>
+    <div id="projects"><!--card class divs, with -box, -title, and -blurb subdiv classes for each project-->
+      <div class="card">
+        <div class="card-box">
+          <img src="/assets/robot.png" alt="Comstar-bot logo" width="150" style="border-radius: 50%;">
+            <p class="card-title">Comstar Bot</p>
+            <p class="card-blurb">A Discord bot written in Python for a local Battletech gaming group that automates many of their commonly used dice roll functions, including random hit locations, variable number of missile hits and the results of falling mecha.</p>
+            <a data-contact="Github" style="--accent-color: #181717;" href="https://github.com/Nenyond/Comstarbot"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+          </div>
+        </div>
+      <div class="card">
+        <div class="card-box">
+          <img src="/assets/BBtech.png" alt="Buffalo Battletech Page" width="200" style="clip-path: circle();" onclick="window.location.href='https://buffalobattletech.com'">
+        </div>
+        <div class="card-label">
+          <p class="card-title">Buffalo Battletech</p>
+          <p class="card-blurb">A static webpage for the local tabletop Battletech gaming community, with a gallery and javascript event calendar.</p>
+          <a data-contact="Github" style="--accent-color: #181717;" href="https://github.com/Nenyond/stuff"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-box">
+          <img src="/assets/something.png" alt="Tools logo" width="200" style="clip-path: circle();" onclick="window.location.href='http://ezrasbattletechtools.com/'">
+        </div>
+        <div class="card-label">
+          <p class="card-title">Ezra's Battletech Tools</p>
+          
+          <p class="card-blurb">A set of javascript tools as a game aide for tabletop Battletech play. Designed to parallel other record keeping PWAs and optimized for mobile device use.</p>
+          <a data-contact="Github" style="--accent-color: #181717;" href="https://github.com/Nenyond/Ezras-Battletech-Tools/tree/main"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <footer class="out">
+      <p>Powered by Spite, Red Bull and pure Chaos.<br>
+        &#x1F12F; <span id="year"></span> Dov Ezra Forsyth</p>
+        <a href="mailt&#111;&#58;%20%64o%&#55;6&#101;&#37;7Ar%&#54;1%&#54;6o&#114;&#115;&#121;&#116;h&#64;&#112;r%&#54;Fgr&#37;61%6D&#109;e%72&#46;&#37;6Ee%74"> do&#118;&#101;&#122;ra&#102;o&#114;&#115;yth&#64;p&#114;&#111;gr&#97;&#109;&#109;e&#114;&#46;net</a>
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--I admit, i dont understand how to get anime.js to workfrom an external file, yet. I'll fix it as soon as I can-->
+    <script> 
+        anime ({
+            targets: '.carousel',
+            translateX: [-5, 5, 0],
+            duration: '2000',
+            direction: 'alternate',
+            easing: 'cubicBezier(0.430, 0.090, 0.410, 0.950)',
+            loop: true,
+        })
+    </script>
+    <script src="./javascript.js"></script>
+
+    <!--for some reason beyond my kenning, this refused to work from the external file.-->
+    <script>const d = new Date();
+    document.getElementById("year").textContent = d.getFullYear();</script>
+
+<!--This is a Hannukah Egg comment.
+When you find it, iterate the count and save please.
+Honks = 1
+-->
+</body>
+</html>

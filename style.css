@@ -119,9 +119,11 @@ body {
     max-height: fit-content;
     border: 2px solid wheat;
     padding: 5px;
+    padding-bottom: 3rem;
     min-height: 420px;
     min-width: 300px;
     margin: 1em 0;
+    position: relative;
 }
 
 .card-box{
@@ -154,6 +156,8 @@ body {
     flex-shrink: 0;
     display: grid;
     place-items: center;
+    position: absolute;
+    bottom: 10px;
 } 
 .card svg {
     height: 32px;
